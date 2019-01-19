@@ -1,11 +1,11 @@
 package com.zzx.leetcode;
 
-public class Solution10 {
+public class Solution13 {
     public static void main(String args[]){
-        Solution10 solution10 = new Solution10();
-        System.out.println(solution10.romanToInt("IIII"));
+        Solution13 solution13 = new Solution13();
+        System.out.println(solution13.romanToInt("IIII"));
         Long lon = System.currentTimeMillis();
-        int i = solution10.romanToInt1("IV");
+        int i = solution13.romanToInt1("IV");
         System.out.println(System.currentTimeMillis()-lon+ " ms");
         System.out.println(i);
     }
